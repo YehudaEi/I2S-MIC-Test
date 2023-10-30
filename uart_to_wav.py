@@ -3,7 +3,7 @@ import wave
 import struct
 
 # UART configuration
-ser = serial.Serial('COM23', 512000)  # Replace 'COMx' with your UART port and baud rate
+ser = serial.Serial('COM29', 921600)  # Replace 'COMx' with your UART port and baud rate
 
 # WAV file configuration
 output_file = 'output.wav'
